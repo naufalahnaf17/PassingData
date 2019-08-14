@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityResultData">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Masukan Data Nanti Akan Kembali Ke Main Menu Activity" />
+
+    <EditText
+        android:id="@+id/txtKembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data Akan Kembali Ke Main Menu Activity"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/btnDataKembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:text="OK" />
+
+</LinearLayout>

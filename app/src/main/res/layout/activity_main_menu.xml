@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainMenu">
+
+    <Button
+        android:id="@+id/intentNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent Activity"/>
+
+    <Button
+        android:id="@+id/intentWithData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent With Data"/>
+
+    <Button
+        android:id="@+id/intentWithObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent With Object"/>
+
+    <Button
+        android:id="@+id/intentWithImplicit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent With Dial Number"/>
+
+    <Button
+        android:id="@+id/intentWithResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent With Result"/>
+
+</LinearLayout>
